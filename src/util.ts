@@ -42,7 +42,6 @@ export function getConfig(uri?: Uri): PrettierVSCodeConfig {
     useTabs: true,
     bracketSameLine: false,
     bracketSpacing: true,
-    requirePragma: true,
   };
 
   return returnconfig;
